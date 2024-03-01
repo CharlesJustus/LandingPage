@@ -1,3 +1,9 @@
+div{
+    border-width: 1px;
+    border-color:yellow;
+    border-style:solid;
+}
+
 .right-image{
     width:400px;
     height:200px;
@@ -6,11 +12,17 @@
     display:flex;
     background-color:#1f2937;
     color:#f9faf8;
+    flex-wrap:wrap;
+    justify-content: space-between;
+   
     
 }
 .header{
     display:flex;
-    justify-content: end;
+    justify-content: center;
+
 }
-.left
+.title-section{
+    align-items:center;
+}
 
