@@ -1,4 +1,16 @@
 .right-image{
     width:400px;
-    height:200px;}
+    height:200px;
+}
+.first-section{
+    display:flex;
+    background-color:#1f2937;
+    color:#f9faf8;
+    
+}
+.header{
+    display:flex;
+    justify-content: end;
+}
+.left
 
