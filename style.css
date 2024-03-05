@@ -1,5 +1,5 @@
 div{
-    border-width: 1px;
+    border-width: 0px;
     border-color:yellow;
     border-style:solid;
 }
@@ -14,8 +14,8 @@ div{
     color:#f9faf8;
     display: flex;
     flex-direction: column;
-    
     flex:1;
+    justify-content: center;
 }
 .header{
     display:flex;
@@ -25,7 +25,10 @@ div{
 .logo{
     color:#f9faf8;
     font-size: 24px;
-    padding-top:10px;
+    padding-top:0px;
+    margin-top:10px;
+    padding-left:60px;
+   
 }
 .links{
     display:flex;
@@ -33,26 +36,49 @@ div{
     font-size:18px;
     color: #e5e7eb;
     padding-top:10px;
+     padding-right:60px;
 }
 .title-section{
     display: flex;
     justify-content: center;
-    gap:475px;
+    gap:75px;
     padding-top:80px;
-    
-    
-    
 }
 .right-content{
-   padding-right:30px;
+   padding-right:0px;
   
     flex-shrink: 2;
 }
 .left-content{
-    flex-basis:300px;
+    flex-basis:400px;
    flex-shrink:0;
 }
 p{
-    font-size:18px;
-    color: #e5e7eb;
+ 
+}
+button{
+    background-color:#3882f6;
+    color:#e5e7eb;
+}
+.second-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap:wrap;
+    
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+    gap:60px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis:150px;
+}
+.box{
+    display: flex;
+    width:175px;
 }
